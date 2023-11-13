@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Card } from './components/Card'
-import { CardSubmitted } from './components/CardSubmitted'
+import '/src/App.css'
+import { Card } from '/src/components/Card'
+import { CardSubmitted } from '/src/components/CardSubmitted'
 
 
 function App() {
@@ -25,4 +23,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

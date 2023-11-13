@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Rating } from '/src/Rating'
+import { Rating } from '/src/components/Rating'
 
 export const Card = ({handleSubmit}) => {
   const [rating, setRating] = useState(0);
